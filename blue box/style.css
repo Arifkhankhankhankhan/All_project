@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+   
+}
+.minicontainer{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    bottom: 50%;
+    position: absolute;
+    margin: 10px 50px 50px 50px ;
+}

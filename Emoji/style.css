@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: pink;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: relative;
+}
+.emoji{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%);
+    display: flex;
+    
+    border-radius: 50%;
+   
+    overflow: hidden;
+
+   
+}
+.fa-regular{
+    margin: 1px;
+  transform: translateX(-0);
+  transition: transform 0.2s;
+}
+
+.rating{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%);
+   
+
+}
+.fa-solid {
+    color: grey;
+    cursor: pointer;
+}
+
+.fa-solid.active {
+    color: yellow;
+}
+

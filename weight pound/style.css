@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to right,lightgrey,white,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background: linear-gradient(to right,lightgrey,white,yellow);;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(79, 145, 167);
+
+}
+input{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+p,label{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.erorr{
+    color: red;
+}

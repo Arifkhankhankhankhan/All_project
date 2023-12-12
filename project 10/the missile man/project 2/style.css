@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;}
+
+    .container{
+       
+        height: 550px;
+        width: 600px;
+        box-shadow: 0 0 10px 0 black;
+        border-radius: 10px;
+        text-align: center;
+        
+
+    
+    }
+    .formcontainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 20px;
+    }
+    .control{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        font-size: 20px;
+    }
+    input,textarea,select{
+    padding: 8px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:0 0 10px 0 black;
+
+    }
+    button{
+        
+    }
+    

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,lightyellow,black);
+
+}
+
+ .inputco{
+        width: 350px;
+        padding: 15px;
+        border-radius: 10px;
+        background:lightblue;
+        font-size: 1.3rem;
+        
+    }
+
+    .inputco:focus{
+        outline:none;
+    }

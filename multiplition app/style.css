@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+   
+    background: linear-gradient(to right,red,lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form{
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(to left,red,lightblue);
+}
+.input{
+    display: block;
+   width: 100%;
+   font-size: 25px;
+   text-align: center;
+   border: 2px solid blue;
+   color: blue;
+   margin: 5px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+.input::placeholder{
+    color: lightblue;
+    font-family: cursive;
+}
+.btn{
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+    font-family: cursive;
+}
+.btn:hover{
+    filter: brightness(0.9);
+
+}
+.score{
+    text-align: right;
+    color: blue;
+    font-size: 20px;
+
+
+}

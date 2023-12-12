@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,lightblue,red)
+     ;
+     font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    padding: 10px;
+    background-color: yellow;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.currency-converted {
+    justify-content: space-between;
+    display: flex;
+  padding: 20px;
+ 
+
+}
+.currency-converted select{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+}
+.currency-converted input{
+    border: none;
+    text-align: right;
+    font-size: 20px;
+    background: transparent;
+}
+p{
+    font-size: 30px;
+    font-weight: 600;
+}
+select:focus,input:focus{
+    outline: none;
+}

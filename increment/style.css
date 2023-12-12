@@ -1,0 +1,43 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornsilk;
+ 
+    height: 100vh;}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-counter{
+    margin: 5px;
+    background-color:white;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    padding: 10px;
+
+}
+
+.container-counter span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: black;
+}
+.container-counter .counter{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+}

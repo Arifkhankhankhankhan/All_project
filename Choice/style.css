@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: white;
+
+    
+}
+
+.star

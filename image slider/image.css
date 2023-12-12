@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.minicontainer{
+    margin: 10px;
+    width: 20%;
+    height: 90vh;
+    border-radius: 30px;
+    background: white no-repeat scroll center;
+    flex: 1;
+    filter: grayscale(1);
+}
+
+.minicontainer h3{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+
+}
+#innercount1{
+    background-image: url(image/mumbai.jpg);
+    
+}
+#innercount2{
+    background-image: url(image/quebec.jpg);
+}
+#innercount3{
+    background-image: url(image/spain.jpg);
+}
+#innercount4{
+    background-image: url(image/tokyo.jpg);
+}
+.active{
+    flex: 3;
+    filter: grayscale(0);
+}
